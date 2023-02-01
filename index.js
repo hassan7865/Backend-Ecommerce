@@ -15,7 +15,7 @@ moongose.connect(
     ).then(()=>console.log("DB ConnectionSuccesfull!")).catch((err)=>
     console.log(err))
 App.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://fluffy-mandazi-07cfc8.netlify.app",
     methods:["GET","POST","PUT","DELETE"]
 }))
 App.use(express.json());
