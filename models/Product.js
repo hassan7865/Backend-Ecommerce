@@ -7,6 +7,7 @@ const ProductSchema = new moongoose.Schema(
     category:{type:Array,required:true},
     color:{type:Array,required:true},
     price:{type:Number,required:true},
+    size:{type:Array,required:true},
     inStock:{type:Boolean,default:true}
     
     },
